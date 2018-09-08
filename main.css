@@ -1,0 +1,44 @@
+﻿  /* CSS layout */
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#masthead {
+	position: fixed;
+	width: 100%;
+	background-image: url('seamlesspaper.jpg');
+}
+#top_nav {
+	padding-top: 120px;
+}
+
+#container {
+	min-width: 600px;
+}
+
+#left_col {
+	border-width: thin;
+	border-style: none solid none none;
+	width: 350px;
+	float: left;
+	position: fixed;
+	left: 50px;
+	clip: rect(auto, auto, auto, auto);
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+#page_content {
+	margin-left: 220px;
+	margin-right: 100px;
+}
+#footer {
+	border-style: solid;
+	border-width: thin;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
+	left: 0px;
+	background-color: #FFFFFF;
+	background-image: url('seamlesspaper.jpg');
+}
